@@ -1,0 +1,165 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/nunito-bold.ttf");
+}
+
+#container{
+    margin: -10px;
+    max-width: 1530px;
+    display: flex;
+    flex-direction: row;
+}
+
+#first-block{
+    width: 50%;
+    background-color: #f6f6e2;
+}
+
+#left-container{
+    display: flex;
+    flex-direction: column;
+    width: 452px;
+    margin-left: 228px;
+}
+
+#title{
+    font-family: NunitoBold, sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    padding-top: 194px;
+}
+
+#content{
+    font-family: NunitoBold, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-top: 7px;
+    margin-bottom: 42px;
+}
+
+button{
+    width: 210px;
+    height: 70px;
+    left: 547px;
+    top: 855px;
+    background: #DD3142;
+    border-radius: 40px;
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    margin: 40px auto 0 auto;
+}
+
+.label{
+    font-family: NunitoBold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+label{
+    font-family: NunitoBold, sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+input{
+    border: none;
+    background-color: #f6f6e2;
+    border-bottom: 1px solid #C6C6C4;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#checking{
+    margin: 44px auto 191px auto;
+}
+
+#checking a{
+    font-family: NunitoBold, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+#name{
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+}
+
+#homeworks{
+    position: absolute;
+    top: 27px;
+    left: 41.3%;
+    font-family: NunitoBold, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+span{
+    font-size: 40px;
+    color: red;
+}
+
+#second-block{
+    width: 50%;
+    background-color: #F8F8FA;
+}
+
+#right-container{
+}
+
+#background{
+    max-width: 543px;
+    height: 529px;
+    margin: 325px auto 300.2px 11px;
+}
+
+#rocket{
+    max-height: 425px;
+    max-width: 425px;
+    position: absolute;
+    top: 254px;
+    right: 238px;
+    z-index: 4;
+}
+
+.ellipse{
+    max-height: 290px;
+    max-width: 290px;
+}
+
+.ellipse1{
+    position: absolute;
+    top: 457px;
+    right: 419px;
+}
+
+.ellipse2{
+    position: absolute;
+    top: 524px;
+    right: 253px;
+    z-index: 3;
+}
+
+.ellipse3{
+    position: absolute;
+    top: 417px;
+    right: 238px;
+    z-index: 2;
+}
